@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿Person[] person = new Person[3]{new Person(), new Person(), new Person()};
 
-Console.WriteLine("Hello, World!");
+
+Console.WriteLine(person[0]);
+Console.WriteLine(person[1]);
+Console.WriteLine(person[2]);
+
+public class Person
+{
+    
+}
+
+
