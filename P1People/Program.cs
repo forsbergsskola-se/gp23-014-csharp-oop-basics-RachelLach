@@ -1,9 +1,9 @@
 ﻿Person[] person = new Person[3]{new Person(), new Person(), new Person()};
 
-
-Console.WriteLine(person[0]);
-Console.WriteLine(person[1]);
-Console.WriteLine(person[2]);
+for(int i = 0; i<3; i++)
+{
+Console.WriteLine(person[i]);
+}
 
 public class Person
 {
